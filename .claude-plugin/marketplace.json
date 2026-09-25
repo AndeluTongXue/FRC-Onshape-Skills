@@ -1,0 +1,11 @@
+{
+  "name": "frc-onshape-skills",
+  "owner": { "name": "AndeluTongXue" },
+  "plugins": [
+    {
+      "name": "frc-onshape-cad",
+      "source": "./",
+      "description": "Parametric, low-regen FRC robot CAD skills for Onshape (FRCDesign.org methodology + Onshape docs)."
+    }
+  ]
+}

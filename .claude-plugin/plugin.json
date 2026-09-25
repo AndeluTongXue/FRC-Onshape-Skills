@@ -1,0 +1,7 @@
+{
+  "name": "frc-onshape-cad",
+  "version": "0.1.0",
+  "description": "Skills for agents doing FIRST Robotics Competition (FRC) robot CAD in Onshape: parametric, top-down, low-regen modeling based on FRCDesign.org methodology and Onshape Learning Center feature knowledge.",
+  "author": { "name": "Andrew" },
+  "keywords": ["frc", "onshape", "cad", "robotics", "parametric", "featurescript"]
+}
