@@ -1,6 +1,6 @@
 ---
 name: tolerances
-description: Team tolerance standards for FRC Onshape CAD — gear center-to-center (+0.010" via enlarged tangent pitch circles, no c-c dimension), belt center-to-center (-0.005"), plus bearing, shaft, spacer, hole, and 3D-print fit allowances. Use whenever sketching gear meshes, belt or chain runs, bearing bores, shaft/spacer fits, clearance or tapped holes, printed parts, or when asked about tolerances, fits, clearances, or "how much gap".
+description: Team tolerance standards for FRC Onshape CAD — gear pitch circles +0.005" in diameter and constrained tangent (c-c = nominal + 0.005", no c-c dimension), belt center-to-center (-0.005"), plus bearing, shaft, spacer, hole, and 3D-print fit allowances. Use whenever sketching gear meshes, belt or chain runs, bearing bores, shaft/spacer fits, clearance or tapped holes, printed parts, or when asked about tolerances, fits, clearances, or "how much gap".
 ---
 
 # Tolerances
@@ -9,16 +9,17 @@ Assumes `frc-cad-foundations`, `parametric-sketching`, and `power-transmission-c
 
 ## Team rules (mandatory)
 
-### Gears: c-c = nominal + 0.010"
+### Gears: each pitch-circle diameter + 0.005"
 
-- **Don't dimension between the gear circles.** Draw each gear's pitch circle **0.005" larger in radius**, which is **0.010" larger in diameter**, then constrain the two circles **tangent**.
-  - Two tangent circles, each 0.005" bigger in radius, sit 0.010" farther apart than nominal.
+- **Don't dimension between the gear circles.** Draw each gear's pitch circle **0.005" larger in diameter**, then constrain the two circles **tangent**.
+  - Two meshing gears add 0.010" of diameter in total.
+  - Because c-c = (D1 + D2)/2 for tangent circles, the modeled c-c ends up **nominal + 0.005"**.
   - Keeping tangency (instead of a c-c dimension) means the mesh still follows tooth-count changes without re-dimensioning.
-- **Diameter expression (20 DP):** `(teeth/20)" + 0.01"`.
-  - Example: 12T is `(12/20)" + 0.01"`, and 60T is `(60/20)" + 0.01"`.
-  - Nominal c-c is (0.6 + 3.0)/2 = 1.800". Modeled c-c is 1.810".
-- Name the circles so the intent is clear, e.g. `PD 12T +0.005R`.
-- **Idler chains and gear trains:** give every gear in the train the enlarged circle and chain the tangent constraints. Each mesh then gets +0.010".
+- **Diameter expression (20 DP):** `(teeth/20)" + 0.005"`.
+  - Example: 12T is `(12/20)" + 0.005"`, and 60T is `(60/20)" + 0.005"`.
+  - Nominal c-c is (0.6 + 3.0)/2 = 1.800". Modeled c-c is (0.605 + 3.005)/2 = 1.805".
+- Name the circles so the intent is clear, e.g. `PD 12T +0.005D`.
+- **Idler chains and gear trains:** give every gear in the train the enlarged circle and chain the tangent constraints. Each mesh then sits 0.005" farther apart than nominal.
 - **Gear shafts are then located by the tangency, not by a dimension.** Constrain the other degrees of freedom instead: the angle of the c-c line, and one shaft's position.
 - **Don't** add this tolerance again anywhere else, such as a dimension, variable or mate offset.
 
@@ -57,12 +58,12 @@ The team hasn't set a chain rule. Use nominal `#ChainCTC_25(links, n1, n2)` and 
 
 1. Before adding any power-transmission sketch, decide the element type and apply the matching team rule above.
 2. **Keep tolerances in expressions**, not typed numbers.
-   - Good: `(48/20)" + 0.01"`
-   - Bad: `2.41"`
-   - If several parts share a tolerance, put it in a variable, e.g. `#gear_tol = 0.005 in` (radius), `#belt_tol = 0.005 in`. Then gear diameters are `(n/20)" + 2*#gear_tol` and belt c-c is `#BeltCTC_5mm(...) - #belt_tol`. One edit then updates the whole robot.
+   - Good: `(48/20)" + 0.005"`
+   - Bad: `2.405"`
+   - If several parts share a tolerance, put it in a variable, e.g. `#gear_tol = 0.005 in` (diameter), `#belt_tol = 0.005 in`. Then gear diameters are `(n/20)" + #gear_tol` and belt c-c is `#BeltCTC_5mm(...) - #belt_tol`. One edit then updates the whole robot.
 3. **Belt & Chain Gen:** run it on the nominal pulley circles. The c-c dimension already carries the −0.005".
 4. **Verify:**
-   - Measure the gear c-c. It should read nominal + 0.010", and there should be no driving dimension between the gear centers.
+   - Measure the gear c-c. It should read nominal + 0.005", and there should be no driving dimension between the gear centers.
    - Measure the belt c-c. It should read nominal − 0.005".
    - Change one tooth count. Both rules must still hold after the rebuild.
 
