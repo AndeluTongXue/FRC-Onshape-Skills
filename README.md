@@ -18,6 +18,7 @@ Sources:
 | naming-and-folders | Team naming rules for sketches, extrudes, parts; feature-tree, assembly, and tab folders |
 | onshape-feature-rules | What Onshape features can and can't do: sketches, dimensions, extrudes, patterns, mates |
 | part-sourcing | Finding COTS parts, trustworthy dimensions, and CAD from vendors |
+| hole-feature | Hole feature options, fastener sizes, and one Hole per stackup |
 | assembly-setup | Origin Cube method, rigid subassemblies, motion mates, Replicate |
 | design-decisions | Requirements, architecture choice, materials, fasteners, 3D printing, controllability |
 | mechanism-playbooks | Drivetrain, shooter, pivot, intake, and elevator recipes, plus example documents |
