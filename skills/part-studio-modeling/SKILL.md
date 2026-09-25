@@ -5,7 +5,10 @@ description: Builds lean, parametric, fast-regenerating Onshape part studios for
 
 # Part Studio Modeling
 
-Assumes `frc-cad-foundations` and `parametric-sketching`.
+> - **Tree:** `frc-cad-foundations` › Model › **part-studio-modeling**
+> - **Also load:** `parametric-sketching`
+> - **Go deeper:** `hole-feature`, `power-transmission-cad`
+> - **Next:** `assembly-setup`
 
 ## What belongs in the part studio
 

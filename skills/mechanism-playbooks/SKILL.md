@@ -5,7 +5,11 @@ description: Step-by-step parametric Onshape build recipes for common FRC mechan
 
 # Mechanism Playbooks
 
-Assumes `frc-cad-foundations`; uses `main-layout-sketch`, `part-studio-modeling`, `power-transmission-cad`, `assembly-setup`. Numbers are FRCDesign.org course defaults — adapt to the current game and prototypes.
+> - **Tree:** `frc-cad-foundations` › Assemble › `assembly-setup` › **mechanism-playbooks**
+> - **Also load:** `main-layout-sketch`, `part-studio-modeling`, `power-transmission-cad`
+> - **Next:** `cad-review`
+
+Numbers are FRCDesign.org course defaults — adapt to the current game and prototypes.
 
 Every playbook follows the same skeleton:
 

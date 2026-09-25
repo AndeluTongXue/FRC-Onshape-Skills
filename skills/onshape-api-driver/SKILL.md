@@ -5,7 +5,10 @@ description: Drives Onshape programmatically (REST API and FeatureScript) or, as
 
 # Onshape API / UI Driver
 
-Assumes `frc-cad-foundations`. Behavior per Onshape API docs (onshape-public.github.io/docs) and Help. Details in `references/api-cheatsheet.md`; UI shortcuts in `references/ui-shortcuts.md`.
+> - **Tree:** `frc-cad-foundations` › Execute › **onshape-api-driver**
+> - **Next:** return to the branch you were carrying out, then verify with `cad-review`
+
+Behavior per Onshape API docs (onshape-public.github.io/docs) and Help. Details in `references/api-cheatsheet.md`; UI shortcuts in `references/ui-shortcuts.md`.
 
 ## Principles
 

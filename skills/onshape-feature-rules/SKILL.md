@@ -5,7 +5,10 @@ description: What Onshape can and cannot do, so the agent plans valid operations
 
 # Onshape Feature Rules (Can / Can't)
 
-Source: Onshape Help / OLC. Items marked [verify] come from partial docs or memory; confirm in the UI or with a test before building on them. Assumes `frc-cad-foundations`.
+> - **Tree:** `frc-cad-foundations` › Model › `parametric-sketching` › **onshape-feature-rules**
+> - **Next:** back to the sketch or feature you were planning
+
+Source: Onshape Help / OLC. Items marked [verify] come from partial docs or memory; confirm in the UI or with a test before building on them.
 
 ## Sketch planes
 

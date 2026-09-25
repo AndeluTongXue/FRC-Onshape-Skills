@@ -5,7 +5,11 @@ description: Rules and techniques for fully-defined, parametric Onshape sketches
 
 # Parametric Sketching
 
-Assumes `frc-cad-foundations`. Tool behavior from Onshape Help; FRC technique from FRCDesign.org Stage 1A–1C.
+> - **Tree:** `frc-cad-foundations` › Model › **parametric-sketching**
+> - **Go deeper:** `onshape-feature-rules`
+> - **Next:** `part-studio-modeling`
+
+Tool behavior from Onshape Help; FRC technique from FRCDesign.org Stage 1A–1C.
 
 ## Core rules
 

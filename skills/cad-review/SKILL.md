@@ -5,7 +5,11 @@ description: Audits and repairs FRC Onshape CAD for parametric robustness, regen
 
 # CAD Review
 
-Assumes `frc-cad-foundations`. Run it after every task, and when asked to review.
+> - **Tree:** `frc-cad-foundations` › Review › **cad-review**
+> - **Also load:** `tolerances`, `naming-and-folders`, and `hole-feature` for their review checks
+> - **Next:** report back (see the workflow in `frc-cad-foundations`)
+
+Run it after every task, and when asked to review.
 
 ## 1. Parametric robustness (highest priority)
 

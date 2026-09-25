@@ -5,7 +5,11 @@ description: Sets up or audits the Onshape document structure for an FRC robot �
 
 # Robot Document Architecture
 
-Assumes `frc-cad-foundations`. Structure follows FRCDesign.org Best Practices; Onshape behaviors follow Onshape Help.
+> - **Tree:** `frc-cad-foundations` › Plan › **robot-document-architecture**
+> - **Go deeper:** `naming-and-folders`
+> - **Next:** `main-layout-sketch`
+
+Structure follows FRCDesign.org Best Practices; Onshape behaviors follow Onshape Help.
 
 ## Standard structure
 

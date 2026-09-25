@@ -5,7 +5,11 @@ description: Builds fast, robust Onshape assemblies for FRC — Origin Cube grou
 
 # Assembly Setup
 
-Assumes `frc-cad-foundations`. Method from FRCDesign.org Assembly Best Practices; mate/tool behavior from Onshape Help.
+> - **Tree:** `frc-cad-foundations` › Assemble › **assembly-setup**
+> - **Go deeper:** `mechanism-playbooks`
+> - **Next:** `cad-review`
+
+Method from FRCDesign.org Assembly Best Practices; mate/tool behavior from Onshape Help.
 
 ## Rigid subassembly (per rigid body)
 

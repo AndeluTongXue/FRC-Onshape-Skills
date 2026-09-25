@@ -5,7 +5,11 @@ description: Creates and edits FRC main layout sketches ("master sketches") in O
 
 # Main Layout Sketch (Mastersketch)
 
-Assumes `frc-cad-foundations` and `parametric-sketching`. Every downstream part should trace its critical dimensions back to here.
+> - **Tree:** `frc-cad-foundations` › Layout › **main-layout-sketch**
+> - **Also load:** `parametric-sketching`; `design-decisions` if the architecture isn't chosen yet
+> - **Next:** Model branch: `parametric-sketching`, `part-studio-modeling`
+
+Every downstream part should trace its critical dimensions back to here.
 
 ## What goes in
 

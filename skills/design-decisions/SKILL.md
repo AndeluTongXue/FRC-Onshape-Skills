@@ -5,6 +5,10 @@ description: Makes and documents FRC robot design decisions before and during CA
 
 # Design Decisions
 
+> - **Tree:** `frc-cad-foundations` › Plan › **design-decisions**
+> - **Also load:** `part-sourcing` when a choice needs a real part number
+> - **Next:** `robot-document-architecture`, then `main-layout-sketch`
+
 FRCDesign.org is authoritative for design choices. Present decisions as: requirement → options → criteria → choice → consequences for the layout sketch.
 
 ## Process

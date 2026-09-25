@@ -5,7 +5,10 @@ description: Team naming and folder conventions for FRC Onshape CAD — short, p
 
 # Naming and Folders
 
-Assumes `frc-cad-foundations`. Goal: a teammate can read the feature tree at a glance.
+> - **Tree:** `frc-cad-foundations` › Plan › `robot-document-architecture` › **naming-and-folders**
+> - **Next:** apply it as you go in every later branch
+
+Goal: a teammate can read the feature tree at a glance.
 
 ## What gets a name
 

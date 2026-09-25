@@ -5,7 +5,10 @@ description: Designs and models FRC power transmission parametrically in Onshape
 
 # Power Transmission CAD
 
-Assumes `frc-cad-foundations` and `parametric-sketching`.
+> - **Tree:** `frc-cad-foundations` › Model › `part-studio-modeling` › **power-transmission-cad**
+> - **Also load:** `parametric-sketching`
+> - **Go deeper:** `tolerances` (mandatory team c-c rules)
+> - **Next:** back to `part-studio-modeling`
 
 ## Ratio design
 

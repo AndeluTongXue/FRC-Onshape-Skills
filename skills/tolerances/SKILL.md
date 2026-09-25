@@ -5,7 +5,11 @@ description: Team tolerance standards for FRC Onshape CAD — gear pitch circles
 
 # Tolerances
 
-Assumes `frc-cad-foundations`, `parametric-sketching`, and `power-transmission-cad`. **The team rules in this skill override the c-c adjustments in FRCDesign.org and in the other skills.** Build every tolerance into an expression so the nominal value is still visible.
+> - **Tree:** `frc-cad-foundations` › Model › `part-studio-modeling` › `power-transmission-cad` › **tolerances**
+> - **Also load:** `parametric-sketching`
+> - **Next:** back to `power-transmission-cad`
+
+**The team rules in this skill override the c-c adjustments in FRCDesign.org and in the other skills.** Build every tolerance into an expression so the nominal value is still visible.
 
 ## Team rules (mandatory)
 

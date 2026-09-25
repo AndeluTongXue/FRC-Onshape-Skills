@@ -5,7 +5,11 @@ description: How to use the Onshape Hole feature for FRC parts — hole styles (
 
 # Hole Feature
 
-Assumes `frc-cad-foundations`, `parametric-sketching`, and `onshape-feature-rules`. Onshape behavior is from Onshape Help. Items marked [verify] should be checked in the dialog before relying on them.
+> - **Tree:** `frc-cad-foundations` › Model › `part-studio-modeling` › **hole-feature**
+> - **Also load:** `parametric-sketching`, `onshape-feature-rules`
+> - **Next:** back to `part-studio-modeling`
+
+Onshape behavior is from Onshape Help. Items marked [verify] should be checked in the dialog before relying on them.
 
 ## The key rule: one Hole feature per stackup
 

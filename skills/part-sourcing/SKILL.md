@@ -5,7 +5,11 @@ description: Finds FRC parts online and extracts trustworthy dimensions, specs, 
 
 # Part Sourcing
 
-Assumes `frc-cad-foundations`. The job: get **correct numbers from a primary source** and the **lightest usable CAD**, and record where each came from.
+> - **Tree:** `frc-cad-foundations` › Plan › **part-sourcing**
+> - **Also load:** `tolerances` for fits when modeling to the numbers
+> - **Next:** back to the task that needed the part
+
+The job: get **correct numbers from a primary source** and the **lightest usable CAD**, and record where each came from.
 
 ## Search order for CAD
 
