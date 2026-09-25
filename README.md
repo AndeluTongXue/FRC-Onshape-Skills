@@ -14,6 +14,7 @@ Sources:
 | parametric-sketching | Fully defined sketches, plate, gusset, and mount recipes |
 | part-studio-modeling | Feature tree order, FeatureScripts, regeneration-time control |
 | power-transmission-cad | Ratios, belts, chain, gears, shafts, bearings, tensioning |
+| tolerances | Team gear/belt c-c rules and fit allowances for holes, bearings, spacers, prints |
 | assembly-setup | Origin Cube method, rigid subassemblies, motion mates, Replicate |
 | design-decisions | Requirements, architecture choice, materials, fasteners, 3D printing, controllability |
 | mechanism-playbooks | Drivetrain, shooter, pivot, intake, and elevator recipes, plus example documents |
